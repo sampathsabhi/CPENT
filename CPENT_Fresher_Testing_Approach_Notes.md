@@ -1,9 +1,4 @@
-# CPENT Practical Testing — Command-First Notes
-
-> Use only against systems you are authorized to test.
->
-> **Format:** each subsection has commands first and one short line explaining what they are for.
-
+# CPENT Exam
 ---
 
 # 1. WEB TESTING
