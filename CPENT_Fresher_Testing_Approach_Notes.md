@@ -756,6 +756,7 @@ Routes traffic to an internal subnet through the SSH pivot.
 
 ```bash
 sshuttle -r <USER>@<PIVOT> <SUBNET1> <SUBNET2>
+sshuttle -r root@10.200.98.200 --ssh-cmd "ssh -i key.rsa" 10.200.98.0/24 -x 10.200.98.200 &
 ```
 Routes multiple internal subnets through one SSH pivot.
 
